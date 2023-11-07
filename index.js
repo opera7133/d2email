@@ -10,7 +10,6 @@ const client = new Client({
     GatewayIntentBits.GuildMessages,
   ],
 });
-const mail = process.env.MAIL_ACCOUNT;
 const pass = process.env.MAIL_PASSWORD;
 sgMail.setApiKey(pass);
 // When the client is ready, run this code (only once)
